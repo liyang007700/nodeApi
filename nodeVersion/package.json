@@ -1,0 +1,21 @@
+{
+  "name": "node-version",
+  "version": "1.0.0",
+  "description": "print node version",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/ltsn 10"
+  },
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
+  "author": "liyang",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-color": "^1.4.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.4.0",
+    "terminal-link": "^1.2.0"
+  }
+}

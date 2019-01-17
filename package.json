@@ -1,0 +1,36 @@
+{
+  "name": "node_learn",
+  "version": "1.0.0",
+  "description": "learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liyang",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "no-console": "off",
+      "no-debugger": "off",
+      "object-curly-spacing": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  }
+}
